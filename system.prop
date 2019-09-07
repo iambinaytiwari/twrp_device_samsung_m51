@@ -5,3 +5,6 @@ sys.usb.controller=a600000.dwc3
 ro.boot.dynamic_partitions=true
 #fbe.metadata.wrappedkey=true
 ro.boot.bootdevice=1d84000.ufshc
+
+# Disable Rescue Party
+persist.sys.disable_rescue=true
